@@ -16,9 +16,9 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block FELIRON_ORE = registerBlock("feliron_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), FabricatedRPG.ITEM_GROUP);
     public static final Block AQUA_TORCH = registerBlock("aqua_torch",
-            new Block(FabricBlockSettings.of(Material.DECORATION).noCollision().luminance(14).sounds(BlockSoundGroup.WOOD).breakInstantly()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.DECORATION).noCollision().luminance(14).sounds(BlockSoundGroup.WOOD).breakInstantly()), FabricatedRPG.ITEM_GROUP);
 
 
 

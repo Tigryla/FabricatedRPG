@@ -7,6 +7,8 @@
   "item.fabricated_rpg.abyss_soul": "Abyss Soul",
 
 
-  "block.fabricated_rpg.feliron_ore": "FelIron Ore"
+  "block.fabricated_rpg.feliron_ore": "FelIron Ore",
+
+  "itemGroup.fabricated_rpg.general": "FabricatedRPG"
 
 }

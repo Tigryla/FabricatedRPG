@@ -9,19 +9,21 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item ABYSS_CHUNK = registerItem("abyss_chunk",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
     public static final Item ABYSS_DUST = registerItem("abyss_dust",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
     public static final Item ABYSS_FRAGMENTS = registerItem("abyss_fragments",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
     public static final Item ABYSS_GEM = registerItem("abyss_gem",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
     public static final Item ABYSS_HEART = registerItem("abyss_heart",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
     public static final Item ABYSS_SOUL = registerItem("abyss_soul",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
     public static final Item RAW_FELIRON = registerItem("raw_feliron",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            new Item(new FabricItemSettings().group(FabricatedRPG.ITEM_GROUP)));
+
+
 
 
 
