@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "all": "fabricated_rpg:block/aqua_torch"
+  }
+}
